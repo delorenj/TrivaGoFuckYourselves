@@ -1,0 +1,37 @@
+# Consumer Complaint System Requirements
+# Install with: pip install -r requirements.txt
+
+# Core agent framework
+agno>=0.1.0
+
+# AI Models
+anthropic>=0.30.0
+openai>=1.0.0
+
+# Utilities
+httpx>=0.24.0
+pydantic>=2.0.0
+python-dateutil>=2.8.0
+
+# Document processing
+pypdf2>=3.0.0
+python-docx>=0.8.0
+markdown>=3.4.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Legal research tools (optional)
+# These would be for production use
+# lexisnexis-api  # Requires subscription
+# westlaw-api      # Requires subscription
+
+# Development tools
+black>=23.0.0
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Logging and monitoring
+loguru>=0.7.0
+rich>=13.0.0

@@ -1,0 +1,3 @@
+[Travel Company Dispute Resolution \| Claude](https://claude.ai/share/9509df3a-88eb-405f-b49c-fbf18db4d94d)
+
+Excellent idea, Jarad! Let's build a powerful multi-agent system to systematically destroy their fraudulent claims. First, let me check out the Agno documentation to understand the framework.Perfect! Let's build a comprehensive Agno multi-agent system for fighting consumer fraud. I'll create specialized agents that work together to build your case systematically.Now let's create the custom tools that our agents will use:Now let me save all these files to your project:

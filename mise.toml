@@ -1,0 +1,10 @@
+[tools]
+bun = "latest"
+node = "23.3.0"
+pnpm = "latest"
+
+[tasks]
+
+[tasks.start]
+description = "Start the server"
+run = "pnpm run start -C ./webapp"
