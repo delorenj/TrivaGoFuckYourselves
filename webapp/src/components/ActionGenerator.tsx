@@ -54,11 +54,11 @@ Key points to include:
         });
 
         if (!response.ok) {
-            const errorBody = await response.json();
-            throw new Error(`API request failed with status ${response.status}: ${errorBody.error.message}`);
+            const errorBody = await response.json() as any;
+            throw new Error(`API request failed with status ${response.status}: ${errorBody.error?.message || 'Unknown error'}`);
         }
 
-        const result = await response.json();
+        const result = await response.json() as any;
         const candidate = result.candidates?.[0];
 
         if (candidate && candidate.content?.parts?.[0]?.text) {

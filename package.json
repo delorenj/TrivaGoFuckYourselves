@@ -1,0 +1,30 @@
+{
+  "name": "trivagofuckyourselves",
+  "version": "1.0.0",
+  "description": "Trello webhook integration for automated processing",
+  "private": true,
+  "scripts": {
+    "dev": "cd webapp && pnpm dev",
+    "build": "cd webapp && pnpm build",
+    "preview": "cd webapp && pnpm preview",
+    "lint": "cd webapp && pnpm lint",
+    "test": "echo 'No tests configured yet'",
+    "deploy": "cd webapp && pnpm build && wrangler deploy",
+    "sparc": "npx claude-flow@alpha sparc",
+    "swarm": "npx claude-flow@alpha swarm",
+    "hooks": "npx claude-flow@alpha hooks"
+  },
+  "keywords": [
+    "trello",
+    "webhook",
+    "cloudflare",
+    "worker",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "wrangler": "^3.101.0"
+  }
+}
