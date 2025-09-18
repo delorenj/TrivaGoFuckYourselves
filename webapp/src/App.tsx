@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import HeroVideo from './components/HeroVideo';
 import CaseStudy from './components/CaseStudy';
 import WidespreadProblem from './components/WidespreadProblem';
 import AcccLawsuit from './components/AcccLawsuit';
@@ -11,6 +12,7 @@ function App() {
     <div className="bg-brand-pale min-h-screen font-sans">
       <main className="container mx-auto p-4 md:p-8">
         <Header />
+        <HeroVideo />
         <CaseStudy />
         <WidespreadProblem />
         <AcccLawsuit />
